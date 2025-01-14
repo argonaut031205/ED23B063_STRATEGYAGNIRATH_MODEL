@@ -1,4 +1,4 @@
-# Optimizing Velocity and Energy Management in Solar Cars Using Adam Optimization
+# model for velocity optimisation and Energy Management in Solar Cars with SOC estimation
 
 This project models and optimizes the velocity of a solar-powered car to minimize power consumption while maintaining an efficient state of charge (SOC) for its battery. Using an Adam optimizer and incorporating solar dynamics, aerodynamics, and battery efficiency, the model aims to create an optimized velocity profile and analyze energy consumption metrics.
 
