@@ -17,15 +17,15 @@ This project models and optimizes the velocity of a solar-powered car to minimiz
 - **Optimization Algorithm**: Adam Optimizer with adaptive learning rates
 
 ## Assumptions
-- The simulation assumes a competition held on **30th June 2025** starting at noon.
+
 - The car is modeled with a mass of 300 kg, frontal area of 2 m², and an efficiency of 65%.
 - Solar irradiance is simulated in the range of 1300–1400 W/m².
 - The battery has a capacity of 4300 mAh at 150V.
 
 ## How It Works
-1. **Inputs**: Solar irradiance, car mass, velocity data, and other physical parameters.
+1. **Inputs**: Solar irradiance, car mass, velocity data.
 2. **Angle of Inclination**: Calculates the angle of inclination of solar panels using latitude, longitude, and declination angle.
-3. **Energy Metrics**: Computes power drained from the battery and energy gained from solar panels.
+3. **Energy**: Computes power drained from the battery and energy gained from solar panels.
 4. **Optimization**: Iteratively adjusts velocity using the Adam optimizer to minimize power consumption.
 5. **Visualization**: Generates plots for:
    - Initial vs. optimized velocity profiles
